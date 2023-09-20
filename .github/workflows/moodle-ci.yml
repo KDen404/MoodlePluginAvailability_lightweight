@@ -162,7 +162,7 @@ jobs:
         - name: show files recursively
           run: |
             cd ..
-            cp -r AdLerBackend_ActionsTesting buffer
+            cp -r MoodlePluginAvailability_lightweight buffer
             echo "removing unnecessary files"f
             rm -rf buffer/.git
             rm -rf buffer/.github
