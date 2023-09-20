@@ -150,7 +150,7 @@ jobs:
 #        run: moodle-plugin-ci behat --profile chrome
 
   Lightweight_Asset:
-      needs: strategy
+      needs: test
       runs-on: ubuntu-latest
       permissions:
         contents: write
